@@ -24,4 +24,8 @@ public class Kit implements Componente{
     public int getCodigo(){
         return codigo;
     }
+
+    public void setCodigo(int codigo) {
+        this.codigo = codigo;
+    }
 }
