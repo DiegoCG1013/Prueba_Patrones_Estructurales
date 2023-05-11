@@ -1,9 +1,11 @@
 import java.util.ArrayList;
 
 public class Kit implements Componente{
+    private int codigo;
     private ArrayList<Componente> componentes;
 
     public Kit(){
+        this.codigo = (int)(Math.random()*999);
         componentes = new ArrayList<Componente>();
     }
 
@@ -17,5 +19,9 @@ public class Kit implements Componente{
             precio += c.getPrecio();
         }
         return precio * 0.9;
+    }
+
+    public int getCodigo(){
+        return codigo;
     }
 }
