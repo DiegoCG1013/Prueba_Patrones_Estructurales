@@ -1,3 +1,8 @@
+package Builder;
+
+import Composite.Componente;
+import Composite.Kit;
+
 public class KitBuilder {
 
         private Kit kit;
@@ -19,5 +24,4 @@ public class KitBuilder {
             this.kit = new Kit();
             return kitr;
         }
-
 }

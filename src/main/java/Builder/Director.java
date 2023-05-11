@@ -1,6 +1,12 @@
+package Builder;
+
+import Composite.Componente;
+import Composite.Elemento;
+import Composite.Kit;
+
 import java.util.Scanner;
 
-class Director {
+public class Director {
     private ElementBuilder elementBuilder = new ElementBuilder();
 
     private KitBuilder kitBuilder = new KitBuilder();

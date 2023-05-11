@@ -1,4 +1,8 @@
-public class ElementBuilder implements ComponentBuilder{
+package Builder;
+
+import Composite.Elemento;
+
+public class ElementBuilder implements ComponentBuilder {
 
     private Elemento element;
 

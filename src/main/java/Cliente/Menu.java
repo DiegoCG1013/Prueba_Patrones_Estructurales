@@ -1,3 +1,8 @@
+package Cliente;
+
+import Builder.Director;
+import Composite.Componente;
+
 import java.util.ArrayList;
 import java.util.Scanner;
 

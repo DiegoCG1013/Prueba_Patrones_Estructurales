@@ -1,3 +1,5 @@
+package Composite;
+
 public class Elemento implements Componente{
     private double precio;
     private int codigo;
