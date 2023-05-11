@@ -19,4 +19,6 @@ de su precio, que debe realizarse en tiempo de ejecución.
 ### RESULTADOS 
 He empleado un composite para modelar los kits, de manera que los elementos y los kits son componentes, 
 y dentro de los kits hay componentes, todos con el metodo getPrice.
+He hecho un builder para crear los componentes, para poder ir creando paso a paso los kits y su contenido.
+He intentado hacer un singleton en la clase director, para probar, finalmente, entre que se complicaba y era inutil, no lo he hecho.
 
